@@ -1,0 +1,36 @@
+.utilityNavContainer {
+    background-color: #343e48;
+    border: 0 none;
+    border-radius: 0;
+}
+.helpCall {
+    cursor: default;
+}
+ul  li  a span.hidden-xs {
+    color: #fff;
+}
+
+ul  li  a:hover span.hidden-xs {
+    color: #fff;
+}
+
+.helpIconName{
+    color: #fff;
+}
+
+.companyIconName{
+    color: #fff;
+}
+
+.primaryNavContainer {
+	background-color: #8080C0;
+    list-style: outside none none;
+    margin: 0;
+}
+.bodyMainContainer {
+	background-color: #99CCFF;    
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
