@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<parent>
+		<groupId>com.smartdrive</groupId>
+		<artifactId>parent-build</artifactId>
+		<version>1.0</version>
+		<relativePath>../../../build/parent-build/pom.xml</relativePath>
+	</parent>
+
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>agency-view</artifactId>
+  <version>1.0</version>
+  <packaging>war</packaging>
+  <name>agency-view</name>
+  
+  	<dependencies>
+  		<dependency>
+			<groupId>com.smartdrive</groupId>
+			<artifactId>web-deps</artifactId>
+			<version>${version.product}</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>com.smartdrive</groupId>
+			<artifactId>agency-web</artifactId>
+			<version>${version.product}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.smartdrive</groupId>
+			<artifactId>common-view</artifactId>
+			<version>${version.product}</version>
+			<scope>runtime</scope>
+			<type>war</type>
+		</dependency>		
+	</dependencies>	
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.1.1</version>
+				<configuration>
+					<overlays>
+						<overlay>
+							<groupId>com.smartdrive</groupId>
+							<artifactId>common-view</artifactId>
+						</overlay>
+					</overlays>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>  
+</project>

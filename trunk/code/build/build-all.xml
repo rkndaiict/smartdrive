@@ -36,11 +36,30 @@
 		<module>../component/user-management/user-management-api</module>
 		<module>../component/user-management/user-management-impl</module>
 
+		<!--components/car -->	
+		<module>../component/car/car-api</module>
+		<module>../component/car/car-impl</module>
+
+		<!--components/individual -->	
+		<module>../component/individual/individual-api</module>
+		<module>../component/individual/individual-impl</module>
+
+		<!--components/agency -->	
+		<module>../component/agency/agency-api</module>
+		<module>../component/agency/agency-impl</module>		
+		
 		<!--portal commons-->
 		<module>../portal/common/web-utils</module>
+		<module>../portal/common/common-web</module>
+		<module>../portal/common/common-view</module>
 		
-		<!--portal -->
-		<module>../portal/smartdrive-portal/smartdrive-web</module>
-		<module>../portal/smartdrive-portal/smartdrive-view</module>
+		<!--smartdrive individual portal -->
+		<module>../portal/individual-portal/individual-web</module>
+		<module>../portal/individual-portal/individual-view</module>
+		
+		<!--smartdrive agency portal -->
+		<module>../portal/agency-portal/agency-web</module>
+		<module>../portal/agency-portal/agency-view</module>
+
 	</modules>
 </project>

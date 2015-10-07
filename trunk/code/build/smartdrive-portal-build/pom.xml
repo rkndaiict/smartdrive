@@ -17,7 +17,18 @@
 		<module>../parent-build</module>
 		<module>../web-deps</module>
 		
-		<module>../../portal/smartdrive-portal/smartdrive-web</module>
-		<module>../../portal/smartdrive-portal/smartdrive-view</module>
+		<!--common -->
+		<module>../../portal/common/web-utils</module>
+		<module>../../portal/common/common-web</module>
+		<module>../../portal/common/common-view</module>
+		
+		<!--smartderive individual build -->
+		<module>../../portal/individual-portal/individual-web</module>
+		<module>../../portal/individual-portal/individual-view</module>
+		
+		<!--smartderive agency build -->
+		<module>../../portal/agency-portal/agency-web</module>
+		<module>../../portal/agency-portal/agency-view</module>
+
 	</modules>
 </project>

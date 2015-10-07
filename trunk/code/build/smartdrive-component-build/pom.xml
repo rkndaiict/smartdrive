@@ -27,6 +27,18 @@
 		<module>../../component/user-management/user-management-api</module>
 		<module>../../component/user-management/user-management-impl</module>
 		
+		<!--car -->	
+		<module>../../component/car/car-api</module>
+		<module>../../component/car/car-impl</module>
+
+		<!--individual -->	
+		<module>../../component/individual/individual-api</module>
+		<module>../../component/individual/individual-impl</module>
+
+		<!--agency -->	
+		<module>../../component/agency/agency-api</module>
+		<module>../../component/agency/agency-impl</module>
+		
 		
 	</modules>
 </project>
