@@ -450,6 +450,16 @@
 				<artifactId>tika-core</artifactId>
 				<version>${version.apache.tika}</version>
 			</dependency>		
+			<dependency>
+				<groupId>org.springframework.data</groupId>
+				<artifactId>spring-data-mongodb</artifactId>
+				<version>${version.apache.mongodb}</version>
+			</dependency>		
+			<dependency>
+				<groupId>org.mongodb</groupId>
+				<artifactId>mongo-java-driver</artifactId>
+				<version>${version.apache.mongodriver}</version>
+			</dependency>			
 		</dependencies>
 
 	</dependencyManagement>
@@ -509,7 +519,9 @@
 		<version.esapi>2.1.0</version.esapi>
 		<version.jersey>1.16</version.jersey>
 		<version.hibernate-jpa-2.0-api>1.0.1.Final</version.hibernate-jpa-2.0-api>
-		<version.apache.tika>1.5</version.apache.tika>		
+		<version.apache.tika>1.5</version.apache.tika>
+		<version.apache.mongodb>1.2.0.RELEASE</version.apache.mongodb>
+		<version.apache.mongodriver>2.11.0</version.apache.mongodriver>		
 		<build.timestamp>${maven.build.timestamp}</build.timestamp>
 		<maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
 		<!-- <static.content.base.path>${project.build.directory}/${project.build.finalName}/../../staticContent/${project.build.finalName}</static.content.base.path> -->

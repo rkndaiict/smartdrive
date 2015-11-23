@@ -1,0 +1,17 @@
+.hide-text {
+    background-color: transparent;
+    border: 0 none;
+    color: transparent;
+    text-indent: -999999px;
+    text-shadow: none;
+}
+
+.icon-user {
+    background-position: -50px 0;
+    height: 15px;
+    width: 15px;
+}
+
+.posRel {
+    position: relative;
+}
